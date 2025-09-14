@@ -1,7 +1,7 @@
 # Simple perceptron implementation for binary classification
 
 ## How to use
-Use `make` and `make run ARGS="path_to_dataset` where dataset is expected to be csv file, where every row contains one datapoint. First column is label (target variable) and other columns are features. I specifically used mnist digits dataset from here (https://github.com/phoebetronic/mnist). 
+Use `make` and `make run ARGS="path_to_dataset"` where dataset is expected to be csv file, where every row contains one datapoint. First column is label (target variable) and other columns are features. I specifically used mnist digits dataset from here (https://github.com/phoebetronic/mnist). 
 
 ## Algorithm Explanation
 
