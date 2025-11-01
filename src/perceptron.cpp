@@ -23,7 +23,7 @@
     will never end                                                                                     */
 #define MAX_ITERATIONS 10'000
 
-/** Parse data from csv, 1 column is labe, other columns are features (in our case pixels) */
+/** Parse data from csv, 1 column is label, other columns are features (in our case pixels) */
 bool Perceptron::readData(std::string path)
 {
   std::ifstream file (path);
