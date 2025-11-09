@@ -27,7 +27,7 @@ int main (int argc, char **argv)
     return EXIT_FAILURE;
   
   // Split data into training and testing parts
-  perceptron.test_train_split(0.5);
+  perceptron.test_train_split(0.4);
   
   // Train on the testing part
   perceptron.train();
