@@ -79,7 +79,7 @@ bool Perceptron::readData(std::string path)
 }
 
 
-/** Displays data point in grayscale */
+/** Displays data point in grayscale (only useful if using image dataset like mnist) */
 bool Perceptron::displayDatapoint(const dataPoint & datapoint)
 {
 
